@@ -1,0 +1,17 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class RemoveIdFromSubscriptionPlans extends Migration
+{
+    public function up()
+    {
+        Schema::table('subscription_plans', function (Blueprint $table) {
+            if (Schema::hasColumn('subscription_plans', 'id')) {
+                $table->dropColumn('id');
+            }
+        });
+    }
+}

@@ -1,0 +1,168 @@
+/* main.css */
+
+/* Header */
+.header {
+    background-color: #ade8f4;
+    padding: 20px;
+}
+
+.logo_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.top_bar_user {
+    margin-top: 20px;
+}
+
+.top_bar_user a {
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Main Navigation */
+.main_nav_content {
+    margin-top: 20px;
+}
+.main_nav {
+    background-color: #0077b6;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.main_nav_content img {
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 50px 0;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .top_bar_user {
+        margin-top: 10px;
+    }
+
+    .top_bar_user a {
+        font-size: 14px;
+    }
+    /* Adjustments for auth links */
+.auth_links {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.auth_links a {
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.auth_links .divider {
+    margin: 0 10px;
+    color: #000;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+    .auth_links a {
+        font-size: 14px;
+    }
+}
+}
+.technology-form-container {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.technology-submit-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.technology-btn-primary {
+    background-color: #0077b6;
+    color: #0000FF;
+}
+
+.technology-btn-primary:hover {
+    background-color: #87CEEB;
+    color: #ADD8E6;
+    opacity: 0.8;
+}
+
+.subscription-form-container {
+    position: relative;
+    width: 300px;
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.subscription-submit-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.subscription-btn-primary {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.subscription-btn-primary:hover {
+    background-color: #87CEEB;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.subscription-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+}
+
+.subscription-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.subscription-table th, .subscription-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
